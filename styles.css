@@ -22,7 +22,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background-image: url('images/main.jpg');
+    background-image: url('Images/main.jpg');
     background-size: cover;
     background-position: center;
     color: white;
