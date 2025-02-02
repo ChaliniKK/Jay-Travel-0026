@@ -43,7 +43,7 @@ body {
 
 /* Top Destinations Section */
 #top-destinations .d-flex {
-    gap: 5px; 
+    gap: 10px; 
     padding-left: 5px; 
     padding-right: 5px; 
 }
