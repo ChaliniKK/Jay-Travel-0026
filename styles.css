@@ -44,8 +44,8 @@ body {
 /* Top Destinations Section */
 #top-destinations .d-flex {
     gap: 10px; 
-    padding-left: 5px; 
-    padding-right: 5px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
 }
 
 #top-destinations .card {
@@ -53,7 +53,7 @@ body {
 }
 
 #top-destinations .card:hover {
-    transform: scale(0.30);
+    transform: scale(1.05);
 }
 
 #top-destinations .destination-image {
