@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    font-size: 24px; 
+    font-weight: bold;
+    color: orange !important;
+}
+
+.nav-link.active {
+    color: orange !important;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('images/main.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: orange;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* Top Destinations Section */
+#top-destinations .d-flex {
+    gap: 10px; 
+    padding-left: 5px; 
+    padding-right: 5px; 
+}
+
+#top-destinations .card {
+    transition: transform 0.3s;
+}
+
+#top-destinations .card:hover {
+    transform: scale(1.05);
+}
+
+#top-destinations .destination-image {
+    width: 230px; 
+    height: 180px; 
+    object-fit: cover; 
+}
+
+.destination-name {
+    color: black; 
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Team Leads Section */
+#team .team-image {
+    width: 260px; 
+    height: auto; 
+    border-radius: 0; 
+}
+
+#team p {
+    text-align: center;
+    color: #333;
+}
+
+/* Statistics Section */
+.stats-section {
+    background-color: #001f3f; 
+    color: white;
+}
+
+.stat-number {
+    color: orange; 
+    font-size: 2.5rem;
+}
+
+.stat-label {
+    color: white;
+}
+
+/* Testimonials Section */
+
+    #testimonials .card-title {
+        font-size: 1.25rem; 
+        font-weight: bold;
+        color: #4797ed; 
+    }
+
+    #testimonials .card-subtitle {
+        font-size: 0.9rem; 
+        color: #6c757d; 
+    }
+
+    #testimonials .card {
+        height: 100%;
+        max-width: 300px;
+    }
+
+    #testimonials .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center; 
+    }
+
+
+/* Contact Section */
+#contact .form-control {
+    margin-bottom: 15px;
+}
+
+#contact .btn-primary {
+    background-color: rgb(62, 181, 221); 
+    border: none;
+}
+
+#contact .row {
+    margin-bottom: 15px; 
+}
+
+#contact .form-check {
+    margin-bottom: 15px; 
+}
+#contact .form-control {
+    width: 100%;
+    max-width: 350px; 
+}
+
+#contact .row {
+    gap: 8px; 
+}
+
+
+
+/* Styling for the footer 2 section */
+#new-footer h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#new-footer ul {
+    padding-left: 0;
+}
+
+#new-footer ul li {
+    margin-bottom: 8px;
+}
+
+#new-footer a:hover {
+    color: #FFD700; 
+    text-decoration: underline;
+}
